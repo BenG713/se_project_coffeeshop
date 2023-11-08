@@ -12,7 +12,7 @@
     min-height: 720px;
     max-height: 800px;
     height: 100vh;
-    z-index: -1;
+    z-index: 1;
   }
   
   .header__title {
@@ -27,7 +27,7 @@
   }
   
   .header__span-accent {
-    font-family: "Noto Serif", Arial, sans-serif;;
+    font-family: "Noto Serif", Arial, monospace;
     font-style: italic;
     font-weight: normal;
     font-size: 60px;
@@ -43,13 +43,14 @@
     height: 568px;
     width: 646px;
     margin-left: auto;
+    z-index: -1;
   }
   
   .header__description {
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
-    font-family: "Noto Serif", Arial, sans-serif;;
+    font-family: "Noto Serif", Arial, monospace;
     font-style: normal;
     font-weight: normal;
     margin: 28px 0 0;
@@ -61,7 +62,7 @@
     justify-content: space-between;
     margin: 0;
     margin-top: auto;
-    font-family: "Inter", Arial, sans-serif;;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
