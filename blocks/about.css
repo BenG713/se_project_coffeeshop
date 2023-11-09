@@ -56,8 +56,11 @@
     max-width: 660px;
   }
   
+  /* So it's one or two specific font names plus a generic font 
+  name....and they all have to be in the same font family?  */
+  
   .about__paragraph {
-    font-family: "Noto Serif", 'Times New Roman', Garamond;
+    font-family: "Noto Serif", 'Times New Roman', serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
