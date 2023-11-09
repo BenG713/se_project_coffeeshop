@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
 
 .footer__content {
@@ -50,7 +50,7 @@
 .footer__social-link {
   color: white;
   text-decoration: none;
-  transition: .5s color linear .1s;
+  transition: 0.5s color linear 0.1s;
 }
 
 .footer__social-link:hover {
